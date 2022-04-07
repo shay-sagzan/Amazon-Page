@@ -1,0 +1,193 @@
+body {
+  color: #0f1111;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+#first-nav {
+  display: inline-table;
+  -webkit-text-size-adjust: 100%;
+}
+
+#search-bar {
+  height: 35px;
+  cursor: pointer;
+  line-height: 35px;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+
+#dropdown-button-search {
+  height: 35px;
+  cursor: pointer;
+  line-height: 35px;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+
+#select-size {
+  border-radius: 5px;
+  padding: 7px 8px;
+  margin-bottom: 20px;
+}
+
+#buttons-header-right-side > button {
+  color: white;
+}
+
+#buttons-second-row > button {
+  color: white;
+}
+
+#buttons-header-right-side > button:hover {
+  border: 1px solid white;
+}
+
+#buttons-second-row > button:hover {
+  border: 1px solid white;
+}
+
+#fitvile {
+  padding-left: 100px;
+}
+
+#first-group {
+  display: table;
+  padding-top: 30px;
+}
+
+#second-group {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  text-align: start;
+}
+
+#third-group {
+  display: table;
+  justify-content: flex-end;
+  padding-top: 60px;
+}
+
+#addCart {
+  background-color: orange;
+  color: #0f1111;
+  border-radius: 20px;
+  border-color: orange;
+  width: 200px;
+}
+
+#addList {
+  width: 200px;
+  text-align: start;
+  padding: 4px 10px;
+}
+
+#card-end1 {
+  list-style: none;
+  display: list-item;
+  border: 1px solid grey;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+#card-end2 {
+  display: table;
+  width: 276px;
+  height: 250px;
+  list-style: none;
+  display: list-item;
+  border: 1px solid grey;
+  text-align: start;
+  padding-top: 40px;
+  padding-left: 10px;
+}
+
+#second-card-end {
+  display: inline-block;
+}
+
+#img-group-colors {
+  display: inline-block;
+}
+
+.side-bar {
+  display: table;
+  width: 40px;
+  border: 1px solid grey;
+  padding: 5px 5px;
+  margin: 5px 5px;
+}
+
+.img-group-side-bar {
+  padding-top: 50px;
+}
+
+.color-cards {
+  display: inline-block;
+  border: 1px solid grey;
+  padding: 5px 5px;
+  margin: 5px 5px;
+}
+
+#main-card {
+  padding-left: 150px;
+  justify-content: left;
+  display: block;
+  border-style: none;
+}
+
+#shoes-container {
+  padding-top: 50px;
+}
+
+#text-span {
+  color: black;
+}
+
+#second-container {
+  height: 500px;
+}
+
+#second-container > h2 {
+  padding-left: 20px;
+}
+
+#carouselExampleFade {
+  display: flex;
+}
+
+#card {
+  border: none;
+}
+
+#card > h5 {
+  padding-top: 20px;
+}
+
+.card-body {
+  display: inline-block;
+}
+
+.carousel-control-prev {
+  background-color: none;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  margin: 5px 5px 5px 6px;
+  cursor: pointer;
+}
+
+.carousel-control-next {
+  width: 40px;
+  height: 40px;
+  font-size: x-large;
+  margin: 5px 5px 5px 6px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(213, 217, 217);
+  border-radius: 3px;
+  display: block;
+  position: relative;
+  padding-top: 100px;
+}
